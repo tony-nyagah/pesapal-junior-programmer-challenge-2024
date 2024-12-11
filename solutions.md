@@ -1,7 +1,13 @@
 ## 1: Image Hash Spoofing
 This tool modifies a PNG or JPEG image by inserting invisible data that doesn't affect how the image is displayed, but changes the file's SHA-256 hash. The goal is to produce an output file whose hash begins with a specified hexadecimal prefix.
 
-**TLDR:** This video shows how it works: [image-hash-spoofer-tutorial](image-hash-spoofer/assets/image-spoofer-tutorial.mp4)
+**TLDR:** 
+* Here is the code: [spoof.go](image-hash-spoofer/spoof.go)
+* This video shows how it works: 
+
+https://github.com/user-attachments/assets/0daefe64-243f-45e8-b49b-d802a64e11c2
+
+
 
 **Note:**
 * This code inserts a custom ancillary chunk for PNGs or a COM (comment) segment for JPEGs.
