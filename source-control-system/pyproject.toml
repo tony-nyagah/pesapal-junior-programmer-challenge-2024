@@ -1,0 +1,15 @@
+[project]
+name = "source-control-system"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Antony Nyagah", email = "tony.m.nyagah@gmail.com" }
+]
+dependencies = []
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
